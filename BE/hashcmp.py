@@ -1,7 +1,7 @@
 # A message is to be transmitted using network resources from one machine to another calculate 
 # and demonstrate the use of a Hash value equivalent to SHA-1. 
 
-# Demonstrate use of hash sha1 value
+# Demonstrate use of sha1 hash
 # Use case: password authentication over network
 
 import hashlib, socket, sys

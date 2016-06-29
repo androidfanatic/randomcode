@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Delete comments
-// @author       Olibhel
+// @author       X
 // @match        https://www.reddit.com/user/<reddit-username>/
 // @grant        none
 // ==/UserScript==

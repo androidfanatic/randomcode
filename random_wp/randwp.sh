@@ -5,4 +5,7 @@ rnd="wallhaven-$RANDOM.jpg"
 url="https://wallpapers.wallhaven.cc/wallpapers/full/"$rnd
 path="file://"`pwd`/$rnd
 wget $url
-gsettings set org.gnome.desktop.background picture-uri $path
+# For Ubuntu
+#gsettings set org.gnome.desktop.background picture-uri $path
+# For Lubuntu
+pcmanfm --set-wallpaper `readlink -f "$rnd"`
